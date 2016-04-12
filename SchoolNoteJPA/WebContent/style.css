@@ -1,0 +1,457 @@
+/* * {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	margin: 10px 0;
+	min-width: 600px;
+	color: #1B5882;
+
+	 overflow-y:scroll; 
+	font-family: "Lucida Grande", "Lucida Sans", Verdana, Arial, Helvetica, sans-serif;
+	background: #00B7FD url('images/background.gif') top left fixed;
+}
+
+.wrapper {
+	display: block;
+	background: #00b8fd;
+	background: #fff;
+	width: 75%;
+	 overflow:scroll;
+	margin: 0 auto;
+	
+	padding: 1% 1%;
+	
+}
+
+
+
+.header {
+	color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	padding: 5px 0;
+	margin: 0 auto;
+	background: #007FAF url('images/header.gif') top center;
+}
+
+.header h1{
+	padding-top: 20px;
+}
+
+.header .slogan {
+	padding: 1px 10px;
+	color: #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+}
+
+.left {
+	position: relative;
+	position: absolute;
+	display: block;
+	width: 20%;
+	margin-top: 1%;
+	float: left;
+	background: #007FAF;
+}
+
+.nav {
+	margin: 5px;
+	margin-top: 10px;
+	padding: 1% 5px;
+}
+
+.nav ul {
+	padding: 0;
+	list-style: none;
+}
+
+.nav ul li a {
+	display: block;
+	height: 40px;
+	padding-left: 10%;
+	color: #FFFFFF;
+	line-height: 40px;
+	font-size: .8em;
+	text-decoration: none;
+	margin: 2px auto;
+	border: 1px solid #007FAF;
+}
+
+.nav ul li a.active {
+	text-decoration: none;
+	color: #1B5882;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+.nav ul li a:hover {
+	text-decoration: none;
+	border: 1px solid #FFFFFF;
+}
+
+.nav ul li ul {
+	padding-left: 18px;
+	font-size: .6em;
+}
+
+.nav ul ul a {
+	line-height: 30px;
+	height: 30px;
+}
+
+.right {
+	float: right;
+	width: 70%;
+	height:40px; 
+	
+	
+	margin-right: 2.5%;
+	margin-top: 2.5%;
+}
+
+.right h2 {
+	border-bottom: 1px solid #1B5882;
+	padding-bottom: 2%;
+}
+
+.right p {
+	padding: 2%;
+	line-height: 20px;
+}
+
+.right  ul {
+	padding: 2%;
+	padding-left: 10%;
+}
+
+.right blockquote {
+	padding: 0 2%;
+	padding-left: 2%;
+	margin: 2% 0 2% 2%;
+	border-left: solid 10px #072235;
+	background: 
+}
+
+.footer {
+	color: #fff;
+	clear: both;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 19px;
+	//padding-bottom: 0px;
+	width: 100%;
+	min-height: 20px;
+	margin: 0px;
+}
+
+.footer a {
+	color: #fff;
+}
+
+
+a {
+	color: #072235;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+.loginbutton{
+	background-color:#a5f1c6;
+	border-radius:5px/5px;
+	-webkit-border-radius:5px/5px;
+	-moz-border-radius:5px/5px;
+	color:#333;
+	display:inline-block;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	width:270px;
+	text-align:center;
+	line-height:50px;
+	text-decoration:none;
+	height:50px;
+	margin-top:20px;
+	margin-bottom:20px;
+	border:none;
+	outline:0;
+	cursor: pointer;
+}
+
+.loginbutton:active {
+	position:relative;
+	top:1px;
+}
+
+.loginbutton:hover{
+	background-color:#e5bf05;
+}
+
+
+
+#col1 {
+    position: absolute;
+    left: .left;
+    padding: 0px;  
+}
+
+#col2 {
+    position: absolute;
+   margin-left:15%;
+    padding: 0px;
+}
+
+#col3 {
+margin-left:60%;
+    padding: 0px;
+} */
+
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+	text-decoration:none;
+}
+
+body {
+	margin: 10px 0;
+	min-width: 600px;
+	color: #1B5882;
+	 overflow-y:scroll; 
+	font-family: "Lucida Grande", "Lucida Sans", Verdana, Arial, Helvetica, sans-serif;
+	background: #00B7FD url('images/background.gif') top left fixed;
+}
+
+.wrapper {
+	display: block;
+	background: #fff;
+	width: 75%;
+	 /* overflow:scroll; */
+	margin: 0 auto;
+	
+	padding: 1% 1%;
+	
+}
+
+
+#delete{
+		margin-top: -10px;
+	text-align: right; 
+	position: right;
+    font-size: 80%;
+     color: #FF0000; 
+}
+
+.lefty {
+	text-align: left; 
+	position: left;
+    float: left; 
+	
+	
+}
+
+
+.header {
+	color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	padding: 5px 0;
+	margin: 0 auto;
+	background: #007FAF url('images/header.gif') top center;
+}
+
+.header h1{
+	padding-top: 20px;
+		position: relative;
+/* 	position: absolute; */
+	display: block;
+}
+
+.header .slogan {
+	padding: 1px 10px;
+	color: #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+}
+
+.left {
+	position: relative;
+/* 	position: absolute; */
+	display: block;
+	width: 20%;
+	margin-top: 1%;
+	
+	float: left;
+	background: #007FAF;
+}
+
+.nav {
+	margin: 5px;
+	margin-top: 10px;
+	padding: 1% 5px;
+}
+
+.nav ul {
+	padding: 0;
+	list-style: none;
+}
+
+.nav ul li a {
+	display: block;
+	height: 40px;
+	padding-left: 10%;
+	color: #FFFFFF;
+	line-height: 40px;
+	font-size: .8em;
+	text-decoration: none;
+	margin: 2px auto;
+	border: 1px solid #007FAF;
+}
+
+.nav ul li a.active {
+	text-decoration: none;
+	color: #1B5882;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+.nav ul li a:hover {
+	text-decoration: none;
+	border: 1px solid #FFFFFF;
+}
+
+.nav ul li ul {
+	padding-left: 18px;
+	font-size: .6em;
+}
+
+.nav ul ul a {
+	line-height: 30px;
+	height: 30px;
+}
+
+.right {
+	float: right;
+	width: 70%;
+	height:40px; 
+    margin-right: 2.5%;
+	margin-top: 2.5%;
+}
+
+.right h2 {
+	border-bottom: 1px solid #1B5882;
+	padding-bottom: 2%;
+}
+
+.right p {
+	padding: 2%;
+	line-height: 20px;
+}
+
+.right  ul {
+	padding: 2%;
+	padding-left: 10%;
+}
+
+}
+
+.sentence {
+	stylepadding-left:200px
+}
+
+
+.right blockquote {
+	padding: 0 2%;
+	padding-left: 2%;
+	margin: 2% 0 2% 2%;
+	border-left: solid 10px #072235;
+	background: 
+}
+
+.footer {
+	color: #fff;
+	clear: both;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 19px;
+	//padding-bottom: 0px;
+	width: 100%;
+	min-height: 20px;
+	margin: 0px;
+}
+
+.footer a {
+	color: #fff;
+}
+
+
+a {
+	color: #072235;
+	font-weight: bold;
+	styletext-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+.loginbutton{
+	background-color:#a5f1c6;
+	border-radius:5px/5px;
+	-webkit-border-radius:5px/5px;
+	-moz-border-radius:5px/5px;
+	color:#333;
+	display:inline-block;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	width:270px;
+	text-align:center;
+	line-height:50px;
+	text-decoration:none;
+	height:50px;
+	margin-top:20px;
+	margin-bottom:20px;
+	border:none;
+	outline:0;
+	cursor: pointer;
+}
+
+.loginbutton:active {
+	position:relative;
+	top:1px;
+}
+
+.loginbutton:hover{
+	background-color:#e5bf05;
+}
+
+
+
+#col1 {
+    position: absolute;
+    left: .left;
+    padding: 5px;  
+}
+
+#col2 {
+    position: absolute;
+   margin-left:15%;
+    padding: 5px;
+}
+
+#col3 {
+margin-left:50%;
+    padding: 5px;
+}
