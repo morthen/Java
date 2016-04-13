@@ -4,13 +4,13 @@ Jax-rs project
 -User
 - a user in the system belonging to a team
 features:
--
+
 -Create a User
--
+
 -Updating a User
--
+
 - Remove a User
--
+
 -Get a user based on the user ID (not the entity ID)
 -
 -Search for a user based on first name
