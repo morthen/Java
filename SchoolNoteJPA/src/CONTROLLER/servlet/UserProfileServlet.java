@@ -24,7 +24,7 @@ import MODEL.entities.UserHandler;
  * Then we can send the data to the View of what notes the current logged-in user has written.
  * 
  * 
- * @author Ludwig Slotte / Martin Özgun
+ * @author Martin Özgun
  */
 
 @WebServlet("/UserProfileServlet")

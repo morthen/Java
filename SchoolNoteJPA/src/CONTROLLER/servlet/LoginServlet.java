@@ -20,7 +20,7 @@ import MODEL.authenticate.LoginAuthenticate;
  * The class sends redirect to <code>WelcomeScreen</code> if user is validated, 
  * else prints out error message to <code>login.jsp</code>.
  * 
- * @author Ludwig Slotte / Martin Özgun
+ * @author Martin Özgun
  */
 public class LoginServlet extends HttpServlet {
 

@@ -14,7 +14,7 @@ import static junit.framework.Assert.*;
 /**
  * JUnit test class for User Entity.
  * 
- * @author Ludwig Slotte
+ * @author Martin Özgun
  */
 public class TestUserEntity {
 

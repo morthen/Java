@@ -25,7 +25,7 @@ import MODEL.entities.UserHandler;
 /**
  * Servlet implementation class RegisterUser.
  * 
- * @author Ludwig Slotte / Martin Özgun
+ * @author Martin Özgun
  */
 @WebServlet("/RegisterUser")
 public class RegisterUser extends HttpServlet {

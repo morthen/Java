@@ -28,7 +28,7 @@ import MODEL.entities.NoteHandler;
  * The data gets sent to a method in <code>NoteHandler</code>, which returns the notes from the logged-in user. 
  * The data gets saved in a <code>list</code> of <code>Note</code>-objects's that we return to the View.
  * 
- * @author Ludwig Slotte
+ * @author Martin Özgun
  */
 
 public class ReadNotes extends HttpServlet {

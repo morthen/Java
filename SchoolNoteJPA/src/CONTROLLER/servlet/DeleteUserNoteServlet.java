@@ -22,7 +22,7 @@ import MODEL.entities.UserHandler;
  * that we receive from a parameter.
  * Connects to the <code>Note</code>-table via <code>JPA</code> in the database to delete the row with the specific <code>note-id</code>. 
  * 
- * @author Ludwig Slotte
+ * @author Martin Özgun
  */
 @WebServlet("/DeleteUserNoteServlet")
 public class DeleteUserNoteServlet extends HttpServlet {

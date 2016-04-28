@@ -26,7 +26,7 @@ import MODEL.entities.UserHandler;
  * Stores list of <code>Note</code>-objects in a <code>HashMap</code>
  *  to show in <code>userProfile.jsp</code>.
  * 
- * @author Ludwig Slotte
+ * @author Martin Özgun
  */
 
 @WebServlet("/OtherUserProfileServlet")

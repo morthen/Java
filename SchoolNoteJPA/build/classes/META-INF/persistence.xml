@@ -8,7 +8,7 @@
 			<property name="javax.persistence.schema-generation.scripts.action" value="create-tables"/>
 			<property name="eclipselink.ddl-generation" value="create-tables"/>
 			<property name="eclipselink.ddl-generation.output-mode" value="database"></property>
-			<property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/C:/Users/Ludwig/MyJPADB"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/C:/Users/M/MyJPADB"/>
 			<property name="javax.persistence.jdbc.user" value="test"/>
 			<property name="javax.persistence.jdbc.password" value="test"/>
 			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>

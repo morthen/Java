@@ -21,7 +21,7 @@ import MODEL.entities.UserHandler;
  * Calling on method from <code>UserHandler</code> to list all users.
  * Stores the <code>list</code> of users in a <code>HashMap</code> to print it to the <code>users.jsp</code>.
  * 
- * @author Ludwig Slotte
+ * @author Martin Özgun
  * 
  * */
 @WebServlet("/GetUsersServlet")

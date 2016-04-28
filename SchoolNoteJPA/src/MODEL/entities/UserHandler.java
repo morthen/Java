@@ -57,7 +57,7 @@ public class UserHandler {
 	 *
 	 * @return the list of users.name
 	 * 
-	 * @author Ludwig Slotte
+	 * @author Martin Özgun
 	 */
 	
 	public static List<String> listUsers() {
@@ -116,7 +116,7 @@ public class UserHandler {
 	 * @param username the username
 	 * @return the namefrom username
 	 * 
-	 * @author Ludwig Slotte
+	 * @author Martin Özgun
 	 */
 	
 	public static String getNamefromUsername(String username) {

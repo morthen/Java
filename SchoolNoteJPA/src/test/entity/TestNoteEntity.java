@@ -13,7 +13,7 @@ import static junit.framework.Assert.*;
 /**
  * JUnit test class for Note Entity.
  * 
- * @author Ludwig Slotte
+ * @author Martin Özgun
  */
 public class TestNoteEntity {
 

@@ -32,7 +32,7 @@ public class NoteHandler {
 	 * @param id the id of the note.
 	 * @return the note from the id.
 	 * 
-	 * @author Ludwig Slotte
+	 * @author Martin Özgun
 	 */
 	public static String getNoteFromId(long id) {
 		EntityManager em = factory.createEntityManager();
